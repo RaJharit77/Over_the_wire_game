@@ -10,8 +10,9 @@ SSH USERNAME@HOST - PORT
 --bash
 HostName (or IP address ) : bandit.labs.overthewire.org  - port : 2220
 Login as : bandit0
-//bandit0@bandit.labs.overthewire.org 's  password : bandit0
-//bandit0@bandit:~$
+/* bandit0@bandit.labs.overthewire.org 's  password : bandit0
+bandit0@bandit:~$
+*/
 ---
 # OverTheWireGame
 ## Niveau 1
@@ -21,7 +22,7 @@ Puis on doit connaître les listes des fichiers dans le répertoire bandit0 par 
 Et après j'ai utilisé la commande "cat" pour afficher le contenu du fichier "readme"; et j'ai quitté bandit0 pour passer à bandit1 ensuite j'ai nouvelle fois reconnecter pour rentrer à bandit1 en utilisant la SSH et le mot de passe ci-dessus qui se trouve dans le fichier "readme" dans le répertoire de bandit0.
 SSH USERNAME@HOST - PORT
 --bash
-bandit0@bandit:~$ ls /home/
+/* bandit0@bandit:~$ ls /home/
 bandit0@bandit:~$ ls
 readme
 bandit0@bandit:~$ cat readme
@@ -32,6 +33,7 @@ Connection to bandit.labs.overthewire.org closed.
 rajoharitiana@dellg:~$ ssh bandit1@bandit.labs.overthewire.org -p 2220
 bandit1@bandit.labs.overthewire.org's password : NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL
 bandit1@bandit:~$
+*/
 ---
 # OverTheWireGame
 ## Niveau 2
@@ -42,13 +44,8 @@ Puis on découvre que le nom du fichier est en forme des caractères speciaux "-
 Et après j'ai utilisé la commande "cat" pour afficher le contenu du fichier "-"; et j'ai quitté bandit1 pour passer à bandit2 ensuite j'ai nouvelle fois reconnecter pour rentrer à bandit1 en utilisant la SSH et le mot de passe ci-dessus qui se trouve dans le fichier "-" dans le répertoire de bandit1.
 SSH USERNAME@HOST - PORT
 --bash
-bandit1@bandit:~$ ls
+/* bandit1@bandit:~$ ls
 -
-bandit1@bandit:~$ ls -l
-total 4
--rw-r----- 1 bandit2 bandit1 33 Oct  5 06:19 -
-bandit1@bandit:~$ cd ./-
--bash: cd: ./-: Not a directory
 bandit1@bandit:~$ cat ./-
 rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi
 bandit1@bandit:~$ exit
@@ -57,6 +54,7 @@ Connection to bandit.labs.overthewire.org closed.
 rajoharitiana@dellg:~$ ssh bandit2@bandit.labs.overthewire.org -p 2220
 bandit2@bandit.labs.overthewire.org's password: rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi
 bandit2@bandit:~$
+*/
 ---
 # OverTheWireGame
 ## Niveau 3
@@ -66,11 +64,12 @@ Pour accèder au fichier avec des espaces, on doit utiliser un antislash " \ " a
 Et après j'ai utilisé la commande "cat" pour afficher le contenu du fichier "spaces in this filename"; et j'ai quitté bandit2 pour passer à bandit3 ensuite j'ai nouvelle fois reconnecter pour rentrer à bandit3 en utilisant la SSH et le mot de passe ci-dessus qui se trouve dans le fichier "spaces in this filename" dans le répertoire de bandit2.
 SSH USERNAME@HOST - PORT
 --bash
-bandit2@bandit:~$ ls
+/*bandit2@bandit:~$ ls
 spaces in this filename
 bandit2@bandit:~$ cat spaces\ in\ this\ filename
 aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG
 bandit3@bandit:~$
+*/
 ---
 [![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
 
