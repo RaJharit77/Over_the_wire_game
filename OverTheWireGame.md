@@ -23,15 +23,15 @@ Et après j'ai utilisé la commande "cat" pour afficher le contenu du fichier "r
 SSH USERNAME@HOST - PORT
 --bash
 /* bandit0@bandit:~$ ls /home/
-bandit0@bandit:~$ ls
+// bandit0@bandit:~$ ls
 readme
-bandit0@bandit:~$ cat readme
+// bandit0@bandit:~$ cat readme
 NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL
-bandit0@bandit:~$ exit
+// bandit0@bandit:~$ exit
 logout
 Connection to bandit.labs.overthewire.org closed.
-rajoharitiana@dellg:~$ ssh bandit1@bandit.labs.overthewire.org -p 2220
-bandit1@bandit.labs.overthewire.org's password : NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL
+// rajoharitiana@dellg:~$ ssh bandit1@bandit.labs.overthewire.org -p 2220
+// bandit1@bandit.labs.overthewire.org's password : NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL
 bandit1@bandit:~$
 */
 ---
@@ -46,13 +46,13 @@ SSH USERNAME@HOST - PORT
 --bash
 /* bandit1@bandit:~$ ls
 -
-bandit1@bandit:~$ cat ./-
+// bandit1@bandit:~$ cat ./-
 rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi
-bandit1@bandit:~$ exit
+// bandit1@bandit:~$ exit
 logout
 Connection to bandit.labs.overthewire.org closed.
-rajoharitiana@dellg:~$ ssh bandit2@bandit.labs.overthewire.org -p 2220
-bandit2@bandit.labs.overthewire.org's password: rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi
+// rajoharitiana@dellg:~$ ssh bandit2@bandit.labs.overthewire.org -p 2220
+// bandit2@bandit.labs.overthewire.org's password: rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi
 bandit2@bandit:~$
 */
 ---
@@ -66,7 +66,7 @@ SSH USERNAME@HOST - PORT
 --bash
 /*bandit2@bandit:~$ ls
 spaces in this filename
-bandit2@bandit:~$ cat spaces\ in\ this\ filename
+// bandit2@bandit:~$ cat spaces\ in\ this\ filename
 aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG
 bandit3@bandit:~$
 */
