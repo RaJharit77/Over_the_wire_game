@@ -43,7 +43,7 @@ Et après j'ai utilisé la commande "cat" pour afficher le contenu du fichier "-
 SSH USERNAME@HOST - PORT
 --bash
 bandit1@bandit:~$ ls
--
+"-"
 bandit1@bandit:~$ cat ./-
 rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi
 bandit1@bandit:~$ exit
