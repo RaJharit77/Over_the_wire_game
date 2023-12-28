@@ -21,7 +21,7 @@ Puis on doit connaître les listes des fichiers dans le répertoire bandit0 par 
 Et après j'ai utilisé la commande "cat" pour afficher le contenu du fichier "readme"; et j'ai quitté bandit0 pour passer à bandit1 ensuite j'ai nouvelle fois reconnecter pour rentrer à bandit1 en utilisant la SSH et le mot de passe ci-dessus qui se trouve dans le fichier "readme" dans le répertoire de bandit0.
 SSH USERNAME@HOST - PORT
 --bash
-bandit0@bandit:~$ //ls /home/
+bandit0@bandit:~ ls /home/
 // bandit0@bandit:~$ ls
 readme
 // bandit0@bandit:~$ cat readme
