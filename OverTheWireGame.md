@@ -10,8 +10,8 @@ SSH USERNAME@HOST - PORT
 --bash
 HostName (or IP address ) : bandit.labs.overthewire.org  - port : 2220
 Login as : bandit0
-bandit0@bandit.labs.overthewire.org 's  password : bandit0
-bandit0@bandit:~$
+//bandit0@bandit.labs.overthewire.org 's  password : bandit0
+//bandit0@bandit:~$
 ---
 # OverTheWireGame
 ## Niveau 1
