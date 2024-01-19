@@ -6,7 +6,9 @@ Login as : rajoharitiana
 rajoharitiana@192.168.91.131's password : ******
 
 Pour se connecter, on utilise le commande SSH en suivant le template ci-dessous : 
+
 SSH USERNAME@HOST - PORT
+
 --bash
 
 HostName (or IP address ) : bandit.labs.overthewire.org  - port : 2220
@@ -14,6 +16,7 @@ Login as : bandit0
 bandit0@bandit.labs.overthewire.org 's  password : ****
 
 --bash
+
 # OverTheWireGame
 ## Niveau 1
 Pour se passer au niveau suivant du jeux :
@@ -22,6 +25,7 @@ Puis on doit connaître les listes des fichiers dans le répertoire bandit0 par 
 Et après j'ai utilisé la commande "cat" pour afficher le contenu du fichier "readme"; et j'ai quitté bandit0 pour passer à bandit1 ensuite j'ai nouvelle fois reconnecter pour rentrer à bandit1 en utilisant la SSH et le mot de passe ci-dessus qui se trouve dans le fichier "readme" dans le répertoire de bandit0.
 
 SSH USERNAME@HOST - PORT
+
 --bash
 
 bandit0@bandit:~$ ls 
@@ -29,6 +33,7 @@ bandit0@bandit:~$ ls
 bandit0@bandit:~$ cat readme
 
 --bash
+
 # OverTheWireGame
 ## Niveau 2
 Pour réussir le niveau 2 :
@@ -38,11 +43,13 @@ Puis on découvre que le nom du fichier est en forme des caractères speciaux "-
 Et après j'ai utilisé la commande "cat" pour afficher le contenu du fichier "-"; et j'ai quitté bandit1 pour passer à bandit2 ensuite j'ai nouvelle fois reconnecter pour rentrer à bandit1 en utilisant la SSH et le mot de passe ci-dessus qui se trouve dans le fichier "-" dans le répertoire de bandit1.
 
 SSH USERNAME@HOST - PORT
+
 --bash
 
 bandit1@bandit:~$ cat ./-
 
 --bash
+
 # OverTheWireGame
 ## Niveau 3
 Pour passer au niveau 3 :
@@ -51,6 +58,7 @@ Pour accèder au fichier avec des espaces, on doit utiliser un antislash " \ " a
 Et après j'ai utilisé la commande "cat" pour afficher le contenu du fichier "spaces in this filename"; et j'ai quitté bandit2 pour passer à bandit3 ensuite j'ai nouvelle fois reconnecter pour rentrer à bandit3 en utilisant la SSH et le mot de passe ci-dessus qui se trouve dans le fichier "spaces in this filename" dans le répertoire de bandit2.
 
 SSH USERNAME@HOST - PORT
+
 --bash
 
 bandit2@bandit:~$ ls
