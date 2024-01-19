@@ -25,6 +25,7 @@ SSH USERNAME@HOST - PORT
 --bash
 
 bandit0@bandit:~$ ls 
+
 bandit0@bandit:~$ cat readme
 
 --bash
@@ -51,6 +52,7 @@ Et après j'ai utilisé la commande "cat" pour afficher le contenu du fichier "s
 
 SSH USERNAME@HOST - PORT
 --bash
+
 bandit2@bandit:~$ ls
 
 bandit2@bandit:~$ cat spaces\ in\ this\ filename
